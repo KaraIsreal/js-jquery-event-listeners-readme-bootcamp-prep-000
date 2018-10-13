@@ -11,6 +11,13 @@ function frameIt(){
 });
 }
 
+function pressIt(){
+  $(document).on('keydown', function(input){
+    if (key.which == 71){
+      alert();
+    }
+  });
+}
 
 
 
