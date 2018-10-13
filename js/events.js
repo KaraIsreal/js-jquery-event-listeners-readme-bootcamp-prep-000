@@ -10,12 +10,13 @@ function frameIt(){
   $(this).addClass('tasty')
 });
 }
+
 function pressIt(){
   $(document).on('keydown', function(input){
     if (key.which == 71){
-      alert('g was pressed');
-}
-}
+      alert();
+    }
+  }
 });
 
 
